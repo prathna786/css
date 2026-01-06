@@ -3,5 +3,16 @@ p{
 }
 h1{
     text-align: center;
-    text-decoration:
+    text-decoration:underline;
+}
+h2{
+    text-align: center;
+    text-decoration: overline;
+}
+h3{
+    text-align: center;
+    text-decoration: line-through;
+}
+a{
+    text-decoration: none;
 }
