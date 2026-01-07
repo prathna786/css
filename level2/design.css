@@ -1,0 +1,22 @@
+div{
+    height: 100px;
+    background-color: lightgrey;
+    width: 100px;
+    border-width: 2px;
+    border-style: double;
+    border-color: black;
+      /*corner round & circle creating use border-radius property */
+    border-radius: 10px;
+    /* area of content and border use padding property */
+    padding-left:  10px;
+    padding: 25px 25px 25px 25px; /*top right bottom left*/
+    margin-top: 50px;/* space to two boxs  */
+    margin: 25px 50px 75px 100px; /*top right bottom left*/
+}
+h1{
+    width: 200px;
+    height: 50px;
+    background-color: lightblue;
+    border: 2px dotted maroon;/* shorthand for border-width, border-style, border-color */
+    text-align: center;
+}
