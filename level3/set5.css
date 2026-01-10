@@ -1,0 +1,9 @@
+div{
+    height: 100px;
+    width: 200px;
+    background-image: url("img2.webp");
+    background-size: cover;
+    position: fixed;
+    color: white;
+    right: 0px;
+}
