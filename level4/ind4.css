@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+    border: 2px solid black;
+}
+#container{
+    width:600px ;
+    height: 300px ;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;/*space-between, space-evenly, center, flex-start, flex-end*/
+    /*flex-wrap: wrap;*/
+    align-items: flex-start;/*flex-start, flex-end, center, stretch, baseline*/
+}
+#box1{
+    background-color: rosybrown;
+    flex-grow:  1;
+}
+#box2{
+    background-color: lightblue;
+    flex-shrink: 1;
+}
+#box3{
+    background-color: lightgreen;
+}
+#box4{
+    background-color: lightcoral;
+}
+#box5{
+    background-color: lightgoldenrodyellow;
+    /* align-self: flex-end;highest priority  */
+}
