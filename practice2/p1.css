@@ -1,0 +1,37 @@
+.container{
+    background-image:url('img1.jpg') ; /*set backgroung image in broswer */
+    background-size: cover;
+    height: 1000px;   
+    width: 1600px;
+    position: relative;
+}
+
+
+.header{
+    height: 100px;
+    width: 1600px;
+    background-color: rgb(113, 100, 83);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    position: fixed;
+    left : 0;
+}
+span>img{
+    height: 120px;
+    width: 150px;
+    margin-top: 120px;
+    position: relative;
+}
+span>a{
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+.about{
+    height: 1000px;
+    width: 8000px;
+    
+}
