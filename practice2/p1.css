@@ -1,37 +1,97 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
 .container{
-    background-image:url('img1.jpg') ; /*set backgroung image in broswer */
-    background-size: cover;
     height: 1000px;   
-    width: 1600px;
+    width: auto;
+    /* background-image:url('img1.jpg') ; /*set backgroung image in broswer */
+    /*background-size: cover; */
     position: relative;
 }
-
-
 .header{
     height: 100px;
-    width: 1600px;
+    width: auto;
     background-color: rgb(113, 100, 83);
     display: flex;
     justify-content:space-around;
     align-items: center;
-    position: fixed;
+    /* position: fixed; */
     left : 0;
+    top: 0;
 }
-span>img{
+.logo>img{
     height: 120px;
     width: 150px;
     margin-top: 120px;
     position: relative;
+}
+.link{
+    position: relative;
+    right: 130px;
 }
 span>a{
     text-decoration: none;
     color: white;
     margin-left: 50px;
     font-family: Arial, Helvetica, sans-serif;
-    position: relative;
+    /* position: relative; */
 }
 .about{
-    height: 1000px;
-    width: 8000px;
-    
+    display: flex;
+    justify-content: center;
+}
+.abt1>img{
+    height: 500px;
+    width: 600px;
+    margin-left: 20%;
+}
+.abt2{
+    justify-content: space-around;
+    color: rgb(113, 100, 83);
+    text-align: justify;
+    margin-left: 10%;
+    margin-top: 100px;
+    margin-right: 15%;
+}
+.abt2>h1{
+    font-family:'cinzel', serif;
+    font-weight: bold;
+}
+big{
+    font-size: 20px;
+    font-weight: bold;
+}
+.salient{
+    margin-top: 80px;
+    height: 600px;
+    background-color: rgb(113, 100, 83);
+    color: white;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 50px;
+}
+.specification{
+     display: flex;
+    /* justify-content: center; */
+    margin-top: 80px;
+    color: rgb(113, 100, 83);
+}
+.spec1>img{
+    height: 600px;
+    width: 800px;
+    left: 0px;
+}
+.spec2{
+    margin-left: 50px;
+    margin-top: 0px;
+}
+span>ol>li{
+    font-weight: bold;
+}
+.spec2>h1{
+    font-family:'cinzel', serif;
+    font-weight: lighter;
 }
