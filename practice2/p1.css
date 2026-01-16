@@ -1,18 +1,18 @@
 
 body{
     margin: 0;
-    padding: 0;
 }
 .container{
-    height: 1000px;   
+    height: 100%;   
     width: auto;
     /* background-image:url('img1.jpg') ; /*set backgroung image in broswer */
     /*background-size: cover; */
     position: relative;
+    left: 0;
 }
 .header{
     height: 100px;
-    width: auto;
+    width: 100%;
     background-color: rgb(113, 100, 83);
     display: flex;
     justify-content:space-around;
@@ -31,7 +31,7 @@ body{
     position: relative;
     right: 130px;
 }
-span>a{
+.link>a{
     text-decoration: none;
     color: white;
     margin-left: 50px;
@@ -39,6 +39,7 @@ span>a{
     /* position: relative; */
 }
 .about{
+    margin-top: 100px;
     display: flex;
     justify-content: center;
 }
@@ -46,18 +47,19 @@ span>a{
     height: 500px;
     width: 600px;
     margin-left: 20%;
+    padding-right: 10%;
 }
 .abt2{
     justify-content: space-around;
     color: rgb(113, 100, 83);
     text-align: justify;
-    margin-left: 10%;
+    margin-left: 11%;
     margin-top: 100px;
     margin-right: 15%;
 }
 .abt2>h1{
     font-family:'cinzel', serif;
-    font-weight: bold;
+    font-weight: lighter;
 }
 big{
     font-size: 20px;
@@ -73,6 +75,10 @@ big{
     padding-right: 25%;
     padding-top: 50px;
 }
+.salient>h1{
+    font-family:'cinzel', serif;
+    font-weight: lighter;
+}
 .specification{
      display: flex;
     /* justify-content: center; */
@@ -80,18 +86,41 @@ big{
     color: rgb(113, 100, 83);
 }
 .spec1>img{
-    height: 600px;
-    width: 800px;
+    margin-top: 5%;
+    height: 85%;
+    width: 700px;
     left: 0px;
 }
 .spec2{
-    margin-left: 50px;
-    margin-top: 0px;
+    margin-left: 4%;
+    margin-top: 0%;
 }
 span>ol>li{
     font-weight: bold;
 }
+span>ol>li>p{
+    text-align: justify;
+    margin-right: 10%;
+}
 .spec2>h1{
     font-family:'cinzel', serif;
     font-weight: lighter;
+}
+.footer{
+    margin-top: 80px;
+    height: 400px;
+    background-color: rgb(113, 100, 83);
+    color: white;
+}
+.ftr1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo2>img{
+    height: 130px;
+    width: 170px;
+}
+.scaner>img{
+    display: flex;
 }
