@@ -82,9 +82,29 @@ big {
     text-align: center;
     padding-left: 25%;
     padding-right: 25%;
-    padding-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.salient>p{
+    padding-top: 20px;
+    font-size: 14px;
+}
+.icon{
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    text-align: center;
+    padding-top: 30px;
 }
 
+.icon>span>span{
+    font-size: 40px;
+}
+
+.icon>span>span>p{
+    font-size: medium;
+}
 .salient>h1 {
     font-family: 'cinzel', serif;
     font-weight: lighter;
